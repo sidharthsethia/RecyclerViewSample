@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Eckovation Part 1</string>
+    <string name="title">Sidharth Sethia</string>
+    <string name="title2">Robert Downey Jr</string>
+    <string name="title3">Gwyneth Paltrow</string>
+    <string name="time">9:40 PM</string>
+    <string name="likes">17</string>
+    <string name="views">250</string>
+    <string name="comments">12</string>
+    <string name="desc">Interestingly I have one in early January. I know the number but I do not know the day of the week.</string>
+</resources>
