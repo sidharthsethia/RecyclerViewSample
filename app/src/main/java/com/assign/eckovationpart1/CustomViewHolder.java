@@ -11,9 +11,10 @@ import com.pkmmte.view.CircularImageView;
  * Created by Sidharth on 10/02/16.
  */
 public class CustomViewHolder extends RecyclerView.ViewHolder {
-    protected TextView mTitle,mTime,mViews,mComments,mLikes,mDesc;
+    protected TextView mTitle,mTime,mViews,mComments,mLikes,mDesc,mShare;
     protected CircularImageView mProfileImage;
     protected ImageView mImageView;
+    protected Element element;
     public CustomViewHolder(View view) {
         super(view);
 
@@ -25,5 +26,6 @@ public class CustomViewHolder extends RecyclerView.ViewHolder {
         this.mLikes = (TextView) view.findViewById(R.id.likes);
         this.mProfileImage = (CircularImageView) view.findViewById(R.id.profile_image);
         this.mImageView = (ImageView) view.findViewById(R.id.image);
+        this.mShare = (TextView) view.findViewById(R.id.share);
     }
 }

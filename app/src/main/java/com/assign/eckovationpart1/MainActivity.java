@@ -62,8 +62,40 @@ public class MainActivity extends AppCompatActivity {
         obj3.image = getResources().getDrawable(R.mipmap.image3);
         obj3.views = getString(R.string.views);
 
+        Element obj4 = new Element();
+        obj4.comments = getString(R.string.comments);
+        obj4.likes = getString(R.string.likes);
+        obj4.time = getString(R.string.time);
+        obj4.title = getString(R.string.title4);
+        obj4.desc = getString(R.string.desc);
+        obj4.profile = getResources().getDrawable(R.mipmap.user3);
+        obj4.image = getResources().getDrawable(R.mipmap.image3);
+        obj4.views = getString(R.string.views);
+
         list.add(obj);
         list.add(obj2);
         list.add(obj3);
+
+        list.add(obj);
+        list.add(obj2);
+        list.add(obj3);
+
+        list.add(obj);
+        list.add(obj2);
+        list.add(obj3);
+
+        list.add(obj);
+        list.add(obj2);
+        list.add(obj3);
+
+        list.add(obj);
+        list.add(obj2);
+        list.add(obj3);
+
+        list.add(obj);
+        list.add(obj2);
+        list.add(obj3);
+
+        list.add(obj4);
     }
 }
